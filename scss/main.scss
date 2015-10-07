@@ -4,7 +4,8 @@
 //   border: 2px solid black;
 // 
 .container {
-  height: 221px;
+  // height: 221px;
+  max-height: fit-content;
   width: 600px;
   // border: 1px  solid #555555;
   // border-bottom: none;
@@ -12,7 +13,7 @@
   margin: 100px 200px;
   // margin: 0;
   padding:0;
-  min-height: 160;
+  min-height: fit-content;
   // position: absolute;
 
 
@@ -35,9 +36,10 @@ h4{
   overflow: hidden;
   padding: 0;
   margin: 0;
-  height:180px;
-   border: 1px  solid #555555;
-  min-height: 120px;
+  // height:180px;
+  max-height: fit-content;
+  border: 1px  solid #555555;
+  min-height: fit-content;
   // border-bottom: 1px solid black;
   // min-height:210px;
 
