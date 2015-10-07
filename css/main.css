@@ -1,7 +1,7 @@
 div {
   border: 2px solid black; }
 
-#container {
+.container {
   height: 500px;
   width: 600px;
   border: 2px #D2D3D4;
@@ -13,3 +13,12 @@ h4 {
   height: 40px;
   border: 1px solid #000000;
   margin: 0; }
+
+.text {
+  overflow: hidden; }
+
+.closeText {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 0; }
