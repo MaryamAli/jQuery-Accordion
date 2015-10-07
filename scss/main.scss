@@ -5,7 +5,7 @@
 // 
 .container {
   // height: 221px;
-  max-height: fit-content;
+  max-height: 182px;
   width: 600px;
   // border: 1px  solid #555555;
   // border-bottom: none;
@@ -13,21 +13,19 @@
   margin: 100px 200px;
   // margin: 0;
   padding:0;
-  min-height: fit-content;
+  min-height: 56px;
   // position: absolute;
-
-
 
 }
 
 
 h4{
-  // background-color: red;
+  background-color: #6F87B7;
   height: 40px;
-  border: 1px  solid #555555;
+  border: 1px  solid #82BCFF;
   // border-bottom: none;
   margin: 0;
-  // text-align: left;
+  text-align: center;
   
 
 }
@@ -37,11 +35,15 @@ h4{
   padding: 0;
   margin: 0;
   // height:180px;
-  max-height: fit-content;
-  border: 1px  solid #555555;
-  min-height: fit-content;
+  max-height: 182px;
+  border: 1px  solid #6F87B7;
+  min-height: 56px;
   // border-bottom: 1px solid black;
   // min-height:210px;
+  // transition: height 2s, linear 1s;
+  // transition: height 2s, transform 2s;
+  transition-property: height;
+  transition-duration: 3s;
 
 
 }
@@ -51,5 +53,11 @@ h4{
   margin: 0;
   padding:0;
   height: 0px;
+  // min-height: 56px;
+  // max-height: 182px;
+  // transition: height 2s, linear 1s;
+
 }
+
+
 
