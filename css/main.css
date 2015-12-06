@@ -3,32 +3,39 @@
   width: 600px;
   vertical-align: center;
   margin: 100px 200px;
-  padding: 0; }
+  padding: 0; 
+}
 
 h4 {
   background-color: #6F87B7;
   height: 40px;
   border: 1px  solid #82BCFF;
   margin: 0;
+  vertical-align: text-bottom;
   text-align: center;
-  cursor: pointer; }
+  
+  cursor: pointer; 
+  border-radius: 5px;
+}
   h4.button {
-    height: 43px; }
+    height: 43px; 
+  }
 
 .text {
   overflow: hidden;
   padding: 0;
   margin: 0;
-  max-height: 182px;
-  min-height: 56px;
-  border: 1px  solid #6F87B7;
-  transition: height 3s ease; }
+  height: 182px;
+ /* min-height: 56px;*/
+ /* border: 1px  solid #6F87B7;*/
+  transition: all 3s ease; 
+}
 
 .closeText {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  height: 0px; }
+  height: 0px; 
+  transition: all 3s ease;
+}
 
-.slide {
-  transition: all 3s ease; }
