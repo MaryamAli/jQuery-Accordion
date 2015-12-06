@@ -23,9 +23,11 @@ $('.slide').on('click', 'h4', function(event){
   newText.parent().siblings().find('.text').removeClass('text').addClass('closeText');
 })
 
+// $('p:not(:first)').addClass('hidden');
 
-
-
+// $('.slide').on('click', 'h4', function(){
+//   $(this).parent().removeClass('button').siblings().addClass('button');
+// });
 
 
 
